@@ -1,0 +1,23 @@
+.main-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 220px;
+}
+
+.main-clock-time {
+  font-weight: 900;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: -0.02em;
+  color: inherit;
+  line-height: 0.9;
+  transition: font-size 0.3s ease;
+}
+
+.clock-24h {
+  font-size: clamp(80px, 18vw, 240px);
+}
+
+.clock-12h {
+  font-size: clamp(60px, 14vw, 180px);
+}

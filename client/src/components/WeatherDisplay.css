@@ -1,0 +1,28 @@
+.weather-display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.weather-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.weather-temp {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.weather-condition {
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1;
+}

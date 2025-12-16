@@ -1,0 +1,113 @@
+.city-card {
+  width: 200px;
+  min-width: 200px;
+  padding: 24px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.city-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Default (non-selected) card style */
+.city-card-default {
+  background-color: rgba(255, 255, 255, 0.65);
+  color: #1a1a1a;
+  backdrop-filter: blur(10px);
+}
+
+/* Selected card style - dark background */
+.city-card-selected {
+  background-color: rgba(26, 26, 26, 0.85);
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+}
+
+/* Dark mode overrides */
+body[data-theme="dark"] .city-card-default {
+  background-color: rgba(60, 30, 80, 0.6);
+  color: #ffffff;
+}
+
+body[data-theme="dark"] .city-card-selected {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1a1a1a;
+}
+
+.city-card-remove {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  color: inherit;
+  padding: 0;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.city-card:hover .city-card-remove {
+  opacity: 0.5;
+}
+
+.city-card-remove:hover {
+  opacity: 1 !important;
+}
+
+.city-card-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.city-card-offset {
+  font-size: 11px;
+  opacity: 0.6;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+}
+
+.city-card-name {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.city-card-time-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: auto;
+  padding-top: 6px;
+}
+
+.city-card-time {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1;
+}
+
+.city-card-day-night {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+
+.city-card-day-night-text {
+  font-size: 10px;
+  opacity: 0.6;
+  text-transform: capitalize;
+}

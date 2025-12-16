@@ -1,0 +1,2114 @@
+{
+  "cities": [
+    {
+      "name": "Tokyo",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "Delhi",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Shanghai",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "São Paulo",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Mexico City",
+      "country": "Mexico",
+      "utcOffset": -6
+    },
+    {
+      "name": "Cairo",
+      "country": "Egypt",
+      "utcOffset": 2
+    },
+    {
+      "name": "Mumbai",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Beijing",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Dhaka",
+      "country": "Bangladesh",
+      "utcOffset": 6
+    },
+    {
+      "name": "Osaka",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "New York",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Karachi",
+      "country": "Pakistan",
+      "utcOffset": 5
+    },
+    {
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "utcOffset": -3
+    },
+    {
+      "name": "Chongqing",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Istanbul",
+      "country": "Turkey",
+      "utcOffset": 3
+    },
+    {
+      "name": "Kolkata",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Manila",
+      "country": "Philippines",
+      "utcOffset": 8
+    },
+    {
+      "name": "Lagos",
+      "country": "Nigeria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Tianjin",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Kinshasa",
+      "country": "Democratic Republic of the Congo",
+      "utcOffset": 1
+    },
+    {
+      "name": "Guangzhou",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Los Angeles",
+      "country": "United States",
+      "utcOffset": -8
+    },
+    {
+      "name": "Moscow",
+      "country": "Russia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Shenzhen",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Lahore",
+      "country": "Pakistan",
+      "utcOffset": 5
+    },
+    {
+      "name": "Bangalore",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "utcOffset": 1
+    },
+    {
+      "name": "Bogotá",
+      "country": "Colombia",
+      "utcOffset": -5
+    },
+    {
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "utcOffset": 7
+    },
+    {
+      "name": "Chennai",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Lima",
+      "country": "Peru",
+      "utcOffset": -5
+    },
+    {
+      "name": "Bangkok",
+      "country": "Thailand",
+      "utcOffset": 7
+    },
+    {
+      "name": "Seoul",
+      "country": "South Korea",
+      "utcOffset": 9
+    },
+    {
+      "name": "Nagoya",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "Hyderabad",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "London",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Tehran",
+      "country": "Iran",
+      "utcOffset": 3.5
+    },
+    {
+      "name": "Chicago",
+      "country": "United States",
+      "utcOffset": -6
+    },
+    {
+      "name": "Chengdu",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Nanjing",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Wuhan",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "utcOffset": 7
+    },
+    {
+      "name": "Luanda",
+      "country": "Angola",
+      "utcOffset": 1
+    },
+    {
+      "name": "Ahmedabad",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "utcOffset": 8
+    },
+    {
+      "name": "Xi'an",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Hong Kong",
+      "country": "Hong Kong",
+      "utcOffset": 8
+    },
+    {
+      "name": "Dongguan",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Hangzhou",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Foshan",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Shenyang",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Riyadh",
+      "country": "Saudi Arabia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Baghdad",
+      "country": "Iraq",
+      "utcOffset": 3
+    },
+    {
+      "name": "Santiago",
+      "country": "Chile",
+      "utcOffset": -3
+    },
+    {
+      "name": "Surat",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Madrid",
+      "country": "Spain",
+      "utcOffset": 1
+    },
+    {
+      "name": "Suzhou",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Pune",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Harbin",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Houston",
+      "country": "United States",
+      "utcOffset": -6
+    },
+    {
+      "name": "Dallas",
+      "country": "United States",
+      "utcOffset": -6
+    },
+    {
+      "name": "Toronto",
+      "country": "Canada",
+      "utcOffset": -5
+    },
+    {
+      "name": "Dar es Salaam",
+      "country": "Tanzania",
+      "utcOffset": 3
+    },
+    {
+      "name": "Miami",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Belo Horizonte",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Singapore",
+      "country": "Singapore",
+      "utcOffset": 8
+    },
+    {
+      "name": "Philadelphia",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Atlanta",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Fukuoka",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "Khartoum",
+      "country": "Sudan",
+      "utcOffset": 2
+    },
+    {
+      "name": "Barcelona",
+      "country": "Spain",
+      "utcOffset": 1
+    },
+    {
+      "name": "Johannesburg",
+      "country": "South Africa",
+      "utcOffset": 2
+    },
+    {
+      "name": "Saint Petersburg",
+      "country": "Russia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Qingdao",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Dalian",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Washington",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Yangon",
+      "country": "Myanmar",
+      "utcOffset": 6.5
+    },
+    {
+      "name": "Alexandria",
+      "country": "Egypt",
+      "utcOffset": 2
+    },
+    {
+      "name": "Jinan",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Guadalajara",
+      "country": "Mexico",
+      "utcOffset": -6
+    },
+    {
+      "name": "Ankara",
+      "country": "Turkey",
+      "utcOffset": 3
+    },
+    {
+      "name": "Chittagong",
+      "country": "Bangladesh",
+      "utcOffset": 6
+    },
+    {
+      "name": "Melbourne",
+      "country": "Australia",
+      "utcOffset": 10
+    },
+    {
+      "name": "Abidjan",
+      "country": "Côte d'Ivoire",
+      "utcOffset": 0
+    },
+    {
+      "name": "Addis Ababa",
+      "country": "Ethiopia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Sydney",
+      "country": "Australia",
+      "utcOffset": 10
+    },
+    {
+      "name": "Nairobi",
+      "country": "Kenya",
+      "utcOffset": 3
+    },
+    {
+      "name": "Monterrey",
+      "country": "Mexico",
+      "utcOffset": -6
+    },
+    {
+      "name": "Phoenix",
+      "country": "United States",
+      "utcOffset": -7
+    },
+    {
+      "name": "Boston",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Jeddah",
+      "country": "Saudi Arabia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Berlin",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Accra",
+      "country": "Ghana",
+      "utcOffset": 0
+    },
+    {
+      "name": "Rome",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Medellín",
+      "country": "Colombia",
+      "utcOffset": -5
+    },
+    {
+      "name": "Brasília",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Cape Town",
+      "country": "South Africa",
+      "utcOffset": 2
+    },
+    {
+      "name": "Seattle",
+      "country": "United States",
+      "utcOffset": -8
+    },
+    {
+      "name": "Montreal",
+      "country": "Canada",
+      "utcOffset": -5
+    },
+    {
+      "name": "Casablanca",
+      "country": "Morocco",
+      "utcOffset": 1
+    },
+    {
+      "name": "San Francisco",
+      "country": "United States",
+      "utcOffset": -8
+    },
+    {
+      "name": "Kabul",
+      "country": "Afghanistan",
+      "utcOffset": 4.5
+    },
+    {
+      "name": "Caracas",
+      "country": "Venezuela",
+      "utcOffset": -4
+    },
+    {
+      "name": "Pyongyang",
+      "country": "North Korea",
+      "utcOffset": 9
+    },
+    {
+      "name": "Kunming",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "San Diego",
+      "country": "United States",
+      "utcOffset": -8
+    },
+    {
+      "name": "Vancouver",
+      "country": "Canada",
+      "utcOffset": -8
+    },
+    {
+      "name": "Tel Aviv",
+      "country": "Israel",
+      "utcOffset": 2
+    },
+    {
+      "name": "Algiers",
+      "country": "Algeria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Shijiazhuang",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Minneapolis",
+      "country": "United States",
+      "utcOffset": -6
+    },
+    {
+      "name": "Detroit",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Tampa",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Denver",
+      "country": "United States",
+      "utcOffset": -7
+    },
+    {
+      "name": "St. Louis",
+      "country": "United States",
+      "utcOffset": -6
+    },
+    {
+      "name": "Dublin",
+      "country": "Ireland",
+      "utcOffset": 0
+    },
+    {
+      "name": "Faisalabad",
+      "country": "Pakistan",
+      "utcOffset": 5
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Hamburg",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Izmir",
+      "country": "Turkey",
+      "utcOffset": 3
+    },
+    {
+      "name": "Athens",
+      "country": "Greece",
+      "utcOffset": 2
+    },
+    {
+      "name": "Brisbane",
+      "country": "Australia",
+      "utcOffset": 10
+    },
+    {
+      "name": "Recife",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Porto Alegre",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Dakar",
+      "country": "Senegal",
+      "utcOffset": 0
+    },
+    {
+      "name": "San Antonio",
+      "country": "United States",
+      "utcOffset": -6
+    },
+    {
+      "name": "Kampala",
+      "country": "Uganda",
+      "utcOffset": 3
+    },
+    {
+      "name": "Changsha",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Portland",
+      "country": "United States",
+      "utcOffset": -8
+    },
+    {
+      "name": "Zhengzhou",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Hanoi",
+      "country": "Vietnam",
+      "utcOffset": 7
+    },
+    {
+      "name": "Adelaide",
+      "country": "Australia",
+      "utcOffset": 9.5
+    },
+    {
+      "name": "Lusaka",
+      "country": "Zambia",
+      "utcOffset": 2
+    },
+    {
+      "name": "Harare",
+      "country": "Zimbabwe",
+      "utcOffset": 2
+    },
+    {
+      "name": "Budapest",
+      "country": "Hungary",
+      "utcOffset": 1
+    },
+    {
+      "name": "Munich",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Puebla",
+      "country": "Mexico",
+      "utcOffset": -6
+    },
+    {
+      "name": "Fortaleza",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Rabat",
+      "country": "Morocco",
+      "utcOffset": 1
+    },
+    {
+      "name": "Jaipur",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Kanpur",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Lucknow",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Nagpur",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Rawalpindi",
+      "country": "Pakistan",
+      "utcOffset": 5
+    },
+    {
+      "name": "Kano",
+      "country": "Nigeria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Conakry",
+      "country": "Guinea",
+      "utcOffset": 0
+    },
+    {
+      "name": "Tijuana",
+      "country": "Mexico",
+      "utcOffset": -8
+    },
+    {
+      "name": "Antananarivo",
+      "country": "Madagascar",
+      "utcOffset": 3
+    },
+    {
+      "name": "Salvador",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Copenhagen",
+      "country": "Denmark",
+      "utcOffset": 1
+    },
+    {
+      "name": "Stockholm",
+      "country": "Sweden",
+      "utcOffset": 1
+    },
+    {
+      "name": "Milan",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Mogadishu",
+      "country": "Somalia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Ouagadougou",
+      "country": "Burkina Faso",
+      "utcOffset": 0
+    },
+    {
+      "name": "Aleppo",
+      "country": "Syria",
+      "utcOffset": 2
+    },
+    {
+      "name": "Bamako",
+      "country": "Mali",
+      "utcOffset": 0
+    },
+    {
+      "name": "Taiyuan",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Busan",
+      "country": "South Korea",
+      "utcOffset": 9
+    },
+    {
+      "name": "Daegu",
+      "country": "South Korea",
+      "utcOffset": 9
+    },
+    {
+      "name": "Maputo",
+      "country": "Mozambique",
+      "utcOffset": 2
+    },
+    {
+      "name": "Prague",
+      "country": "Czech Republic",
+      "utcOffset": 1
+    },
+    {
+      "name": "Kathmandu",
+      "country": "Nepal",
+      "utcOffset": 5.75
+    },
+    {
+      "name": "Sofia",
+      "country": "Bulgaria",
+      "utcOffset": 2
+    },
+    {
+      "name": "Guiyang",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Havana",
+      "country": "Cuba",
+      "utcOffset": -5
+    },
+    {
+      "name": "Perth",
+      "country": "Australia",
+      "utcOffset": 8
+    },
+    {
+      "name": "Brussels",
+      "country": "Belgium",
+      "utcOffset": 1
+    },
+    {
+      "name": "Nanning",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Indore",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Mashhad",
+      "country": "Iran",
+      "utcOffset": 3.5
+    },
+    {
+      "name": "Patna",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Thane",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Bhopal",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Bucharest",
+      "country": "Romania",
+      "utcOffset": 2
+    },
+    {
+      "name": "Sapporo",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "Guayaquil",
+      "country": "Ecuador",
+      "utcOffset": -5
+    },
+    {
+      "name": "Quito",
+      "country": "Ecuador",
+      "utcOffset": -5
+    },
+    {
+      "name": "Katowice",
+      "country": "Poland",
+      "utcOffset": 1
+    },
+    {
+      "name": "Minsk",
+      "country": "Belarus",
+      "utcOffset": 3
+    },
+    {
+      "name": "Yaoundé",
+      "country": "Cameroon",
+      "utcOffset": 1
+    },
+    {
+      "name": "Santo Domingo",
+      "country": "Dominican Republic",
+      "utcOffset": -4
+    },
+    {
+      "name": "Warsaw",
+      "country": "Poland",
+      "utcOffset": 1
+    },
+    {
+      "name": "Managua",
+      "country": "Nicaragua",
+      "utcOffset": -6
+    },
+    {
+      "name": "Kumasi",
+      "country": "Ghana",
+      "utcOffset": 0
+    },
+    {
+      "name": "Port-au-Prince",
+      "country": "Haiti",
+      "utcOffset": -5
+    },
+    {
+      "name": "Ludhiana",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Multan",
+      "country": "Pakistan",
+      "utcOffset": 5
+    },
+    {
+      "name": "Kobe",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "Kyoto",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "Gaza",
+      "country": "Palestine",
+      "utcOffset": 2
+    },
+    {
+      "name": "Tbilisi",
+      "country": "Georgia",
+      "utcOffset": 4
+    },
+    {
+      "name": "Yokohama",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "Curitiba",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Almaty",
+      "country": "Kazakhstan",
+      "utcOffset": 6
+    },
+    {
+      "name": "Varanasi",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Kampung Baru Subang",
+      "country": "Malaysia",
+      "utcOffset": 8
+    },
+    {
+      "name": "Agra",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Douala",
+      "country": "Cameroon",
+      "utcOffset": 1
+    },
+    {
+      "name": "Mecca",
+      "country": "Saudi Arabia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Tashkent",
+      "country": "Uzbekistan",
+      "utcOffset": 5
+    },
+    {
+      "name": "Shantou",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Sana'a",
+      "country": "Yemen",
+      "utcOffset": 3
+    },
+    {
+      "name": "Giza",
+      "country": "Egypt",
+      "utcOffset": 2
+    },
+    {
+      "name": "Yerevan",
+      "country": "Armenia",
+      "utcOffset": 4
+    },
+    {
+      "name": "Xiamen",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Jerusalem",
+      "country": "Israel",
+      "utcOffset": 2
+    },
+    {
+      "name": "Campinas",
+      "country": "Brazil",
+      "utcOffset": -3
+    },
+    {
+      "name": "Fes",
+      "country": "Morocco",
+      "utcOffset": 1
+    },
+    {
+      "name": "Kampala",
+      "country": "Uganda",
+      "utcOffset": 3
+    },
+    {
+      "name": "Nashville",
+      "country": "United States",
+      "utcOffset": -6
+    },
+    {
+      "name": "Auckland",
+      "country": "New Zealand",
+      "utcOffset": 12
+    },
+    {
+      "name": "Baltimore",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Amman",
+      "country": "Jordan",
+      "utcOffset": 2
+    },
+    {
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "utcOffset": 1
+    },
+    {
+      "name": "Brazzaville",
+      "country": "Republic of the Congo",
+      "utcOffset": 1
+    },
+    {
+      "name": "Changchun",
+      "country": "China",
+      "utcOffset": 8
+    },
+    {
+      "name": "Tripoli",
+      "country": "Libya",
+      "utcOffset": 2
+    },
+    {
+      "name": "Visakhapatnam",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Las Vegas",
+      "country": "United States",
+      "utcOffset": -8
+    },
+    {
+      "name": "Quezon City",
+      "country": "Philippines",
+      "utcOffset": 8
+    },
+    {
+      "name": "Peshawar",
+      "country": "Pakistan",
+      "utcOffset": 5
+    },
+    {
+      "name": "Kharkov",
+      "country": "Ukraine",
+      "utcOffset": 2
+    },
+    {
+      "name": "Yekaterinburg",
+      "country": "Russia",
+      "utcOffset": 5
+    },
+    {
+      "name": "Baku",
+      "country": "Azerbaijan",
+      "utcOffset": 4
+    },
+    {
+      "name": "Mombasa",
+      "country": "Kenya",
+      "utcOffset": 3
+    },
+    {
+      "name": "Montevideo",
+      "country": "Uruguay",
+      "utcOffset": -3
+    },
+    {
+      "name": "Port Harcourt",
+      "country": "Nigeria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Doha",
+      "country": "Qatar",
+      "utcOffset": 3
+    },
+    {
+      "name": "Asmara",
+      "country": "Eritrea",
+      "utcOffset": 3
+    },
+    {
+      "name": "Gwangju",
+      "country": "South Korea",
+      "utcOffset": 9
+    },
+    {
+      "name": "Kigali",
+      "country": "Rwanda",
+      "utcOffset": 2
+    },
+    {
+      "name": "Bishkek",
+      "country": "Kyrgyzstan",
+      "utcOffset": 6
+    },
+    {
+      "name": "Bekasi",
+      "country": "Indonesia",
+      "utcOffset": 7
+    },
+    {
+      "name": "Odessa",
+      "country": "Ukraine",
+      "utcOffset": 2
+    },
+    {
+      "name": "Bandung",
+      "country": "Indonesia",
+      "utcOffset": 7
+    },
+    {
+      "name": "Homs",
+      "country": "Syria",
+      "utcOffset": 2
+    },
+    {
+      "name": "Portland",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Charlotte",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Muscat",
+      "country": "Oman",
+      "utcOffset": 4
+    },
+    {
+      "name": "Manaus",
+      "country": "Brazil",
+      "utcOffset": -4
+    },
+    {
+      "name": "Asunción",
+      "country": "Paraguay",
+      "utcOffset": -4
+    },
+    {
+      "name": "Columbus",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Rostov-on-Don",
+      "country": "Russia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Oslo",
+      "country": "Norway",
+      "utcOffset": 1
+    },
+    {
+      "name": "Cologne",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Makassar",
+      "country": "Indonesia",
+      "utcOffset": 8
+    },
+    {
+      "name": "Benin City",
+      "country": "Nigeria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Kobe",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "Indianapolis",
+      "country": "United States",
+      "utcOffset": -5
+    },
+    {
+      "name": "Taichung",
+      "country": "Taiwan",
+      "utcOffset": 8
+    },
+    {
+      "name": "Kaohsiung",
+      "country": "Taiwan",
+      "utcOffset": 8
+    },
+    {
+      "name": "Daejeon",
+      "country": "South Korea",
+      "utcOffset": 9
+    },
+    {
+      "name": "Sendai",
+      "country": "Japan",
+      "utcOffset": 9
+    },
+    {
+      "name": "Zapopan",
+      "country": "Mexico",
+      "utcOffset": -6
+    },
+    {
+      "name": "Sanaa",
+      "country": "Yemen",
+      "utcOffset": 3
+    },
+    {
+      "name": "Novosibirsk",
+      "country": "Russia",
+      "utcOffset": 7
+    },
+    {
+      "name": "Jabalpur",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Ouagadougou",
+      "country": "Burkina Faso",
+      "utcOffset": 0
+    },
+    {
+      "name": "Maracaibo",
+      "country": "Venezuela",
+      "utcOffset": -4
+    },
+    {
+      "name": "Tangier",
+      "country": "Morocco",
+      "utcOffset": 1
+    },
+    {
+      "name": "Rosario",
+      "country": "Argentina",
+      "utcOffset": -3
+    },
+    {
+      "name": "Durban",
+      "country": "South Africa",
+      "utcOffset": 2
+    },
+    {
+      "name": "Medan",
+      "country": "Indonesia",
+      "utcOffset": 7
+    },
+    {
+      "name": "Semarang",
+      "country": "Indonesia",
+      "utcOffset": 7
+    },
+    {
+      "name": "Palembang",
+      "country": "Indonesia",
+      "utcOffset": 7
+    },
+    {
+      "name": "Kraków",
+      "country": "Poland",
+      "utcOffset": 1
+    },
+    {
+      "name": "Málaga",
+      "country": "Spain",
+      "utcOffset": 1
+    },
+    {
+      "name": "Austin",
+      "country": "United States",
+      "utcOffset": -6
+    },
+    {
+      "name": "San Jose",
+      "country": "United States",
+      "utcOffset": -8
+    },
+    {
+      "name": "Kazan",
+      "country": "Russia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Ufa",
+      "country": "Russia",
+      "utcOffset": 5
+    },
+    {
+      "name": "Chelyabinsk",
+      "country": "Russia",
+      "utcOffset": 5
+    },
+    {
+      "name": "Omsk",
+      "country": "Russia",
+      "utcOffset": 6
+    },
+    {
+      "name": "Samara",
+      "country": "Russia",
+      "utcOffset": 4
+    },
+    {
+      "name": "Córdoba",
+      "country": "Argentina",
+      "utcOffset": -3
+    },
+    {
+      "name": "Depok",
+      "country": "Indonesia",
+      "utcOffset": 7
+    },
+    {
+      "name": "Tangerang",
+      "country": "Indonesia",
+      "utcOffset": 7
+    },
+    {
+      "name": "Dushanbe",
+      "country": "Tajikistan",
+      "utcOffset": 5
+    },
+    {
+      "name": "Nizhny Novgorod",
+      "country": "Russia",
+      "utcOffset": 3
+    },
+    {
+      "name": "Ibadan",
+      "country": "Nigeria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Kaduna",
+      "country": "Nigeria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Davao City",
+      "country": "Philippines",
+      "utcOffset": 8
+    },
+    {
+      "name": "Cali",
+      "country": "Colombia",
+      "utcOffset": -5
+    },
+    {
+      "name": "San José",
+      "country": "Costa Rica",
+      "utcOffset": -6
+    },
+    {
+      "name": "Maiduguri",
+      "country": "Nigeria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Dakar",
+      "country": "Senegal",
+      "utcOffset": 0
+    },
+    {
+      "name": "Zaria",
+      "country": "Nigeria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Jodhpur",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Aurangabad",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Coimbatore",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Guwahati",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Meerut",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Madurai",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Ranchi",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Nashik",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Jalandhar",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Rajkot",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Vijayawada",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Agartala",
+      "country": "India",
+      "utcOffset": 5.5
+    },
+    {
+      "name": "Tirana",
+      "country": "Albania",
+      "utcOffset": 1
+    },
+    {
+      "name": "Skopje",
+      "country": "North Macedonia",
+      "utcOffset": 1
+    },
+    {
+      "name": "Pristina",
+      "country": "Kosovo",
+      "utcOffset": 1
+    },
+    {
+      "name": "Podgorica",
+      "country": "Montenegro",
+      "utcOffset": 1
+    },
+    {
+      "name": "Sarajevo",
+      "country": "Bosnia and Herzegovina",
+      "utcOffset": 1
+    },
+    {
+      "name": "Zagreb",
+      "country": "Croatia",
+      "utcOffset": 1
+    },
+    {
+      "name": "Ljubljana",
+      "country": "Slovenia",
+      "utcOffset": 1
+    },
+    {
+      "name": "Bratislava",
+      "country": "Slovakia",
+      "utcOffset": 1
+    },
+    {
+      "name": "Vilnius",
+      "country": "Lithuania",
+      "utcOffset": 2
+    },
+    {
+      "name": "Riga",
+      "country": "Latvia",
+      "utcOffset": 2
+    },
+    {
+      "name": "Tallinn",
+      "country": "Estonia",
+      "utcOffset": 2
+    },
+    {
+      "name": "Helsinki",
+      "country": "Finland",
+      "utcOffset": 2
+    },
+    {
+      "name": "Lisbon",
+      "country": "Portugal",
+      "utcOffset": 0
+    },
+    {
+      "name": "Porto",
+      "country": "Portugal",
+      "utcOffset": 0
+    },
+    {
+      "name": "Valencia",
+      "country": "Spain",
+      "utcOffset": 1
+    },
+    {
+      "name": "Seville",
+      "country": "Spain",
+      "utcOffset": 1
+    },
+    {
+      "name": "Zaragoza",
+      "country": "Spain",
+      "utcOffset": 1
+    },
+    {
+      "name": "Bilbao",
+      "country": "Spain",
+      "utcOffset": 1
+    },
+    {
+      "name": "Marseille",
+      "country": "France",
+      "utcOffset": 1
+    },
+    {
+      "name": "Lyon",
+      "country": "France",
+      "utcOffset": 1
+    },
+    {
+      "name": "Toulouse",
+      "country": "France",
+      "utcOffset": 1
+    },
+    {
+      "name": "Nice",
+      "country": "France",
+      "utcOffset": 1
+    },
+    {
+      "name": "Nantes",
+      "country": "France",
+      "utcOffset": 1
+    },
+    {
+      "name": "Strasbourg",
+      "country": "France",
+      "utcOffset": 1
+    },
+    {
+      "name": "Bordeaux",
+      "country": "France",
+      "utcOffset": 1
+    },
+    {
+      "name": "Lille",
+      "country": "France",
+      "utcOffset": 1
+    },
+    {
+      "name": "Naples",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Turin",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Palermo",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Genoa",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Bologna",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Florence",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Catania",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Venice",
+      "country": "Italy",
+      "utcOffset": 1
+    },
+    {
+      "name": "Frankfurt",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Stuttgart",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Düsseldorf",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Dortmund",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Essen",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Bremen",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Dresden",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Leipzig",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Hanover",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Nuremberg",
+      "country": "Germany",
+      "utcOffset": 1
+    },
+    {
+      "name": "Manchester",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Birmingham",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Leeds",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Glasgow",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Liverpool",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Edinburgh",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Sheffield",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Bristol",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Cardiff",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Leicester",
+      "country": "United Kingdom",
+      "utcOffset": 0
+    },
+    {
+      "name": "Reykjavik",
+      "country": "Iceland",
+      "utcOffset": 0
+    },
+    {
+      "name": "Luxembourg",
+      "country": "Luxembourg",
+      "utcOffset": 1
+    },
+    {
+      "name": "Wellington",
+      "country": "New Zealand",
+      "utcOffset": 12
+    },
+    {
+      "name": "Christchurch",
+      "country": "New Zealand",
+      "utcOffset": 12
+    },
+    {
+      "name": "Hamilton",
+      "country": "New Zealand",
+      "utcOffset": 12
+    },
+    {
+      "name": "Suva",
+      "country": "Fiji",
+      "utcOffset": 12
+    },
+    {
+      "name": "Port Moresby",
+      "country": "Papua New Guinea",
+      "utcOffset": 10
+    },
+    {
+      "name": "Noumea",
+      "country": "New Caledonia",
+      "utcOffset": 11
+    },
+    {
+      "name": "Apia",
+      "country": "Samoa",
+      "utcOffset": 13
+    },
+    {
+      "name": "Papeete",
+      "country": "French Polynesia",
+      "utcOffset": -10
+    },
+    {
+      "name": "Honolulu",
+      "country": "United States",
+      "utcOffset": -10
+    },
+    {
+      "name": "Anchorage",
+      "country": "United States",
+      "utcOffset": -9
+    },
+    {
+      "name": "Juneau",
+      "country": "United States",
+      "utcOffset": -9
+    },
+    {
+      "name": "Fairbanks",
+      "country": "United States",
+      "utcOffset": -9
+    },
+    {
+      "name": "Calgary",
+      "country": "Canada",
+      "utcOffset": -7
+    },
+    {
+      "name": "Edmonton",
+      "country": "Canada",
+      "utcOffset": -7
+    },
+    {
+      "name": "Winnipeg",
+      "country": "Canada",
+      "utcOffset": -6
+    },
+    {
+      "name": "Ottawa",
+      "country": "Canada",
+      "utcOffset": -5
+    },
+    {
+      "name": "Quebec City",
+      "country": "Canada",
+      "utcOffset": -5
+    },
+    {
+      "name": "Halifax",
+      "country": "Canada",
+      "utcOffset": -4
+    },
+    {
+      "name": "St. John's",
+      "country": "Canada",
+      "utcOffset": -3.5
+    },
+    {
+      "name": "Whitehorse",
+      "country": "Canada",
+      "utcOffset": -8
+    },
+    {
+      "name": "Yellowknife",
+      "country": "Canada",
+      "utcOffset": -7
+    },
+    {
+      "name": "Iqaluit",
+      "country": "Canada",
+      "utcOffset": -5
+    },
+    {
+      "name": "Nuuk",
+      "country": "Greenland",
+      "utcOffset": -3
+    },
+    {
+      "name": "Reykjavik",
+      "country": "Iceland",
+      "utcOffset": 0
+    },
+    {
+      "name": "Longyearbyen",
+      "country": "Norway",
+      "utcOffset": 1
+    },
+    {
+      "name": "Tromsø",
+      "country": "Norway",
+      "utcOffset": 1
+    },
+    {
+      "name": "Bergen",
+      "country": "Norway",
+      "utcOffset": 1
+    },
+    {
+      "name": "Gothenburg",
+      "country": "Sweden",
+      "utcOffset": 1
+    },
+    {
+      "name": "Malmö",
+      "country": "Sweden",
+      "utcOffset": 1
+    },
+    {
+      "name": "Turku",
+      "country": "Finland",
+      "utcOffset": 2
+    },
+    {
+      "name": "Tampere",
+      "country": "Finland",
+      "utcOffset": 2
+    },
+    {
+      "name": "Oulu",
+      "country": "Finland",
+      "utcOffset": 2
+    },
+    {
+      "name": "Aarhus",
+      "country": "Denmark",
+      "utcOffset": 1
+    },
+    {
+      "name": "Odense",
+      "country": "Denmark",
+      "utcOffset": 1
+    },
+    {
+      "name": "Aalborg",
+      "country": "Denmark",
+      "utcOffset": 1
+    },
+    {
+      "name": "Rotterdam",
+      "country": "Netherlands",
+      "utcOffset": 1
+    },
+    {
+      "name": "The Hague",
+      "country": "Netherlands",
+      "utcOffset": 1
+    },
+    {
+      "name": "Utrecht",
+      "country": "Netherlands",
+      "utcOffset": 1
+    },
+    {
+      "name": "Eindhoven",
+      "country": "Netherlands",
+      "utcOffset": 1
+    },
+    {
+      "name": "Antwerp",
+      "country": "Belgium",
+      "utcOffset": 1
+    },
+    {
+      "name": "Ghent",
+      "country": "Belgium",
+      "utcOffset": 1
+    },
+    {
+      "name": "Bruges",
+      "country": "Belgium",
+      "utcOffset": 1
+    },
+    {
+      "name": "Zurich",
+      "country": "Switzerland",
+      "utcOffset": 1
+    },
+    {
+      "name": "Geneva",
+      "country": "Switzerland",
+      "utcOffset": 1
+    },
+    {
+      "name": "Basel",
+      "country": "Switzerland",
+      "utcOffset": 1
+    },
+    {
+      "name": "Bern",
+      "country": "Switzerland",
+      "utcOffset": 1
+    },
+    {
+      "name": "Lausanne",
+      "country": "Switzerland",
+      "utcOffset": 1
+    },
+    {
+      "name": "Innsbruck",
+      "country": "Austria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Salzburg",
+      "country": "Austria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Graz",
+      "country": "Austria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Linz",
+      "country": "Austria",
+      "utcOffset": 1
+    },
+    {
+      "name": "Thessaloniki",
+      "country": "Greece",
+      "utcOffset": 2
+    },
+    {
+      "name": "Heraklion",
+      "country": "Greece",
+      "utcOffset": 2
+    },
+    {
+      "name": "Patras",
+      "country": "Greece",
+      "utcOffset": 2
+    },
+    {
+      "name": "Nicosia",
+      "country": "Cyprus",
+      "utcOffset": 2
+    },
+    {
+      "name": "Limassol",
+      "country": "Cyprus",
+      "utcOffset": 2
+    },
+    {
+      "name": "Larnaca",
+      "country": "Cyprus",
+      "utcOffset": 2
+    },
+    {
+      "name": "Valletta",
+      "country": "Malta",
+      "utcOffset": 1
+    },
+    {
+      "name": "San Marino",
+      "country": "San Marino",
+      "utcOffset": 1
+    },
+    {
+      "name": "Monaco",
+      "country": "Monaco",
+      "utcOffset": 1
+    },
+    {
+      "name": "Vaduz",
+      "country": "Liechtenstein",
+      "utcOffset": 1
+    },
+    {
+      "name": "Andorra la Vella",
+      "country": "Andorra",
+      "utcOffset": 1
+    },
+    {
+      "name": "Gibraltar",
+      "country": "Gibraltar",
+      "utcOffset": 1
+    },
+    {
+      "name": "Douglas",
+      "country": "Isle of Man",
+      "utcOffset": 0
+    },
+    {
+      "name": "St. Helier",
+      "country": "Jersey",
+      "utcOffset": 0
+    },
+    {
+      "name": "St. Peter Port",
+      "country": "Guernsey",
+      "utcOffset": 0
+    }
+  ]
+}

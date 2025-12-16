@@ -1,0 +1,200 @@
+.search-bar-container {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+}
+
+.search-bar-box {
+  position: relative;
+}
+
+.search-bar-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 1001;
+}
+
+.search-bar-wrapper-focused {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.search-bar-box-expanded .search-bar-wrapper {
+  border-bottom: 1px solid #eee;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search-bar-box-expanded .search-bar-input {
+  color: #333;
+}
+
+.search-bar-box-expanded .search-bar-input::placeholder {
+  color: #999;
+}
+
+/* Dark mode overrides */
+body[data-theme="dark"] .search-bar-wrapper {
+  background: rgba(60, 30, 80, 0.5);
+}
+
+body[data-theme="dark"] .search-bar-wrapper-focused {
+  background: rgba(60, 30, 80, 0.95);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+body[data-theme="dark"] .search-bar-box-expanded .search-bar-wrapper {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body[data-theme="dark"] .search-bar-box-expanded .search-bar-input {
+  color: #ffffff;
+}
+
+body[data-theme="dark"] .search-bar-box-expanded .search-bar-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+body[data-theme="dark"] .search-icon {
+  color: #ffffff;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  opacity: 0.6;
+}
+
+.search-bar-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-size: 14px;
+  outline: none;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.search-bar-input::placeholder {
+  color: inherit;
+  opacity: 0.6;
+}
+
+.search-bar-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  z-index: 1000;
+  margin-top: -1px;
+}
+
+body[data-theme="dark"] .search-bar-dropdown {
+  background: rgba(60, 30, 80, 0.95);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar-dropdown-visible {
+  max-height: 300px;
+  opacity: 1;
+  overflow-y: auto;
+}
+
+.search-bar-loading {
+  padding: 16px;
+  text-align: center;
+  color: #666;
+}
+
+.search-bar-result {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  gap: 12px;
+}
+
+.search-bar-result:last-child {
+  border-bottom: none;
+}
+
+.search-bar-result-name {
+  font-size: 14px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  flex: 1;
+}
+
+body[data-theme="dark"] .search-bar-result {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+body[data-theme="dark"] .search-bar-loading {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar-add-btn {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  min-height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: #111;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  margin-left: auto;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.search-bar-add-btn:hover:not(:disabled) {
+  background: #222;
+}
+
+.search-bar-add-btn:disabled {
+  background: #87CEEB;
+  cursor: default;
+}
+
+.search-bar-add-btn:disabled svg {
+  stroke-width: 3;
+}
+
+/* Dark mode button styles */
+body[data-theme="dark"] .search-bar-add-btn {
+  background: #ffffff;
+  color: #000000;
+}
+
+body[data-theme="dark"] .search-bar-add-btn:hover:not(:disabled) {
+  background: #e0e0e0;
+}
+
+body[data-theme="dark"] .search-bar-add-btn:disabled {
+  background: #FFD700;
+  color: #000000;
+}
