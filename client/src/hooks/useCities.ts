@@ -3,6 +3,7 @@ import type { City } from '../types';
 import { useLocalStorage } from './useLocalStorage';
 
 const API_BASE_URL = 'http://localhost:5000/api';
+console.log('🌐 API_BASE_URL configured as:', API_BASE_URL);
 
 interface UseCitiesResult {
   savedCities: City[];
@@ -64,24 +65,30 @@ export function useCities(): UseCitiesResult {
     if (!query || query.length < 2) {
       setSearchResults([]);
       setSearchError(null);
+      setIsSearching(false);
       return;
     }
 
+    // Set searching state immediately to show loading indicator
+    setIsSearching(true);
+
     // Debounce by 300ms
     debounceRef.current = setTimeout(async () => {
-      setIsSearching(true);
       setSearchError(null);
 
       try {
-        const response = await fetch(
-          `${API_BASE_URL}/cities/search?query=${encodeURIComponent(query)}`
-        );
+        const url = `${API_BASE_URL}/cities/search?query=${encodeURIComponent(query)}`;
+        console.log('🔍 Searching cities with URL:', url);
+        const response = await fetch(url);
+        console.log('📡 Response status:', response.status, response.ok);
         if (!response.ok) {
           throw new Error('Failed to search cities');
         }
         const data: City[] = await response.json();
+        console.log('✅ Search results:', data.length, 'cities found');
         setSearchResults(data);
       } catch (err) {
+        console.error('❌ Search error:', err);
         setSearchError(err instanceof Error ? err.message : 'Unknown error');
         setSearchResults([]);
       } finally {

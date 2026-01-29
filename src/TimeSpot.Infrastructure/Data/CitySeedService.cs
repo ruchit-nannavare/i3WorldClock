@@ -34,7 +34,9 @@ public class CitySeedService
         {
             Name = c.Name,
             Country = c.Country,
-            UtcOffset = c.UtcOffset
+            UtcOffset = c.UtcOffset,
+            Latitude = c.Latitude,
+            Longitude = c.Longitude
         }).ToList();
 
         await _context.Cities.AddRangeAsync(entities);
@@ -59,4 +61,10 @@ public class CityJson
 
     [JsonPropertyName("utcOffset")]
     public double UtcOffset { get; set; }
+
+    [JsonPropertyName("latitude")]
+    public double Latitude { get; set; }
+
+    [JsonPropertyName("longitude")]
+    public double Longitude { get; set; }
 }

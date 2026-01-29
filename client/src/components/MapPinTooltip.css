@@ -1,0 +1,73 @@
+.map-pin-tooltip {
+  position: fixed;
+  pointer-events: none;
+  z-index: 1000;
+  transform: translate(-50%, -120%);
+  min-width: 160px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  animation: tooltipFadeIn 200ms ease-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.map-pin-tooltip.dark {
+  background: rgba(20, 20, 30, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.map-pin-tooltip.light {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: #1a1a1a;
+}
+
+.map-pin-tooltip-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 8px;
+}
+
+.map-pin-tooltip-city {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.map-pin-tooltip-country {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.map-pin-tooltip-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.map-pin-tooltip-time {
+  font-size: 13px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.map-pin-tooltip-daytime {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+@keyframes tooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -110%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -120%);
+  }
+}

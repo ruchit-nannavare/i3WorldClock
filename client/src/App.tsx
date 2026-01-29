@@ -3,6 +3,7 @@ import { useTime } from './hooks/useTime';
 import { useWeather } from './hooks/useWeather';
 import { useCities } from './hooks/useCities';
 import { useLocalStorage } from './hooks/useLocalStorage';
+import { useMapView } from './hooks/useMapView';
 import { GradientBackground } from './components/GradientBackground';
 import { MainClock } from './components/MainClock';
 import { TimeFormatToggle } from './components/TimeFormatToggle';
@@ -12,6 +13,8 @@ import { SunriseSunset } from './components/SunriseSunset';
 import { WeatherDisplay } from './components/WeatherDisplay';
 import { SearchBar } from './components/SearchBar';
 import { CityCarousel } from './components/CityCarousel';
+import { WorldMapView } from './components/WorldMapView';
+import { MapToggleButton } from './components/MapToggleButton';
 import { getGradient } from './utils/gradientMapper';
 import { getLocalTime } from './utils/timeCalculations';
 import './App.css';
@@ -32,6 +35,7 @@ function App() {
   } = useCities();
   const [is24Hour, setIs24Hour] = useLocalStorage('i3worldclock-24hour', true);
   const [isDarkMode, setIsDarkMode] = useLocalStorage('i3worldclock-darkmode', false);
+  const { isMapExpanded, toggleMapView } = useMapView();
 
   // Update body data-theme attribute
   useEffect(() => {
@@ -84,7 +88,7 @@ function App() {
   return (
     <GradientBackground gradient={gradient} isDarkMode={isDarkMode}>
       <div className="app">
-        <header className="app-header">
+        <header className={`app-header ${isMapExpanded ? 'hidden-for-map' : ''}`}>
           <div className="header-logo">
             <span className="logo-icon">&#9788;</span>
             <span className="logo-text">i3WorldClock</span>
@@ -109,7 +113,7 @@ function App() {
         <main className="app-main">
           {primaryCity && (
             <>
-              <div className="clock-row">
+              <div className={`clock-row ${isMapExpanded ? 'map-view-minimized' : ''}`}>
                 <MainClock
                   utcTime={utcTime}
                   utcOffsetSeconds={primaryCity.utcOffsetSeconds}
@@ -123,7 +127,24 @@ function App() {
           )}
         </main>
 
-        <footer className="app-footer">
+        {/* World Map View */}
+        <WorldMapView
+          cities={savedCities}
+          primaryCityId={primaryCityId}
+          utcTime={utcTime}
+          is24Hour={is24Hour}
+          isDarkMode={isDarkMode}
+          isExpanded={isMapExpanded}
+          onCitySelect={setPrimaryCity}
+        />
+
+        {/* Map Toggle Button */}
+        <MapToggleButton
+          isExpanded={isMapExpanded}
+          onClick={toggleMapView}
+        />
+
+        <footer className={`app-footer ${isMapExpanded ? 'hidden-for-map' : ''}`}>
           <div className="footer-content">
             <div className="footer-left">
               <div className="weather-info-group">
@@ -157,7 +178,7 @@ function App() {
           </div>
         </footer>
 
-        <section className="city-section">
+        <section className={`city-section ${isMapExpanded ? 'hidden-for-map' : ''}`}>
           <CityCarousel
             cities={savedCities}
             utcTime={utcTime}

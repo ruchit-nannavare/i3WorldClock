@@ -27,7 +27,7 @@ public class CityAutocompleteService : ICitySearchService
         var cities = await _context.Cities
             .Where(c => EF.Functions.ILike(c.Name, $"{normalizedQuery}%") ||
                         EF.Functions.ILike(c.Name, $"% {normalizedQuery}%"))
-            .OrderBy(c => c.Name.ToLower().StartsWith(normalizedQuery) ? 0 : 1)
+            .OrderBy(c => EF.Functions.ILike(c.Name, $"{normalizedQuery}%") ? 0 : 1)
             .ThenBy(c => c.Name)
             .Take(DefaultLimit)
             .Select(c => new CityDto(

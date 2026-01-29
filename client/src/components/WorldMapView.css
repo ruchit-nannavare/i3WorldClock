@@ -1,0 +1,87 @@
+.world-map-view {
+  position: fixed;
+  transition: all 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  will-change: transform, opacity;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.world-map-view.collapsed {
+  bottom: 120px;
+  right: 40px;
+  width: 150px;
+  height: 80px;
+  transform: scale(1);
+  opacity: 0.95;
+}
+
+.world-map-view.expanded {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  transform: scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.world-map-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.world-map-view.collapsed .world-map-container {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.world-map-view.expanded .world-map-container {
+  background: transparent;
+}
+
+/* Geography (map outlines) styling */
+.world-map-geography {
+  fill: transparent;
+  stroke-width: 0.5;
+  transition: stroke 0.3s ease;
+  outline: none;
+}
+
+.world-map-geography.dark {
+  stroke: rgba(255, 255, 255, 0.12);
+}
+
+.world-map-geography.light {
+  stroke: rgba(0, 0, 0, 0.08);
+}
+
+.world-map-geography:hover {
+  stroke-width: 0.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .world-map-view.collapsed {
+    bottom: 100px;
+    right: 20px;
+    width: 120px;
+    height: 65px;
+  }
+}
+
+@media (max-width: 600px) {
+  .world-map-view.collapsed {
+    width: 100px;
+    height: 60px;
+    bottom: 90px;
+  }
+}

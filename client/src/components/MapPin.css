@@ -1,0 +1,66 @@
+.map-pin {
+  transition: all 0.2s ease;
+}
+
+.map-pin-circle {
+  fill: var(--pin-color);
+  stroke: var(--pin-stroke);
+  stroke-width: 1.5;
+  filter: drop-shadow(0 0 6px var(--pin-glow));
+}
+
+.map-pin:hover .map-pin-circle {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px var(--pin-glow));
+}
+
+/* Pulse animation for primary city */
+.map-pin-pulse {
+  fill: none;
+  stroke: var(--pin-color);
+  stroke-width: 2;
+  opacity: 0.6;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.2;
+  }
+}
+
+/* Dark mode colors */
+.map-pin.dark.map-pin-primary {
+  --pin-color: #b794f6;
+  --pin-stroke: #ffffff;
+  --pin-glow: rgba(183, 148, 246, 0.7);
+}
+
+.map-pin.dark.map-pin-secondary {
+  --pin-color: rgba(200, 180, 255, 0.7);
+  --pin-stroke: rgba(255, 255, 255, 0.5);
+  --pin-glow: rgba(200, 180, 255, 0.5);
+}
+
+/* Light mode colors */
+.map-pin.light.map-pin-primary {
+  --pin-color: #ff9f5a;
+  --pin-stroke: #ffffff;
+  --pin-glow: rgba(255, 159, 90, 0.7);
+}
+
+.map-pin.light.map-pin-secondary {
+  --pin-color: rgba(255, 159, 90, 0.7);
+  --pin-stroke: rgba(255, 255, 255, 0.6);
+  --pin-glow: rgba(255, 159, 90, 0.5);
+}
+
+/* Small pins for mini-map */
+.map-pin.map-pin-small .map-pin-circle {
+  stroke-width: 1;
+}

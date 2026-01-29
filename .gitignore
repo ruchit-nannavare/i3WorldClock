@@ -195,3 +195,4 @@ appsettings.*.json
 
 # Claude AI
 .claude
+nul

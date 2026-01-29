@@ -22,4 +22,10 @@ public class CityEntity
 
     [Column("utc_offset")]
     public double UtcOffset { get; set; }
+
+    [Column("latitude")]
+    public double Latitude { get; set; }
+
+    [Column("longitude")]
+    public double Longitude { get; set; }
 }

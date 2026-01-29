@@ -18,7 +18,7 @@ builder.Services.AddDbContext<WorldTimeDbContext>(options =>
 // Register HttpClient for external services
 builder.Services.AddHttpClient<IWeatherService, OpenMeteoService>();
 
-// Register city search service (now uses database)
+// Register city search service (uses PostgreSQL database)
 builder.Services.AddScoped<ICitySearchService, CityAutocompleteService>();
 
 // Register seeder service
